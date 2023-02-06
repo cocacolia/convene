@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'telegrafregular';
+    src: url('telegraf-regular-webfont.woff2') format('woff2'),
+         url('telegraf-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avarabold';
+    src: url('avara-bold-webfont.woff2') format('woff2'),
+         url('avara-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kaeru_kaeruregular';
+    src: url('kaerukaeru-regular-webfont.woff2') format('woff2'),
+         url('kaerukaeru-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: "Kaeru kaeru";
+    font-size: 38vw;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+p {
+    font-family: "Avara";
+    color: #0C77E9;
+    font-size: 4vw;
+    margin: 20 40 10px;
+    line-height: 1.57;
+}
+.image {
+    width: 95%;
+    max-width: 1000px;
+    margin: 20 40 20px;
+}
+.sticker {
+    margin: auto;
+    width: 50%;
+    margin: 30px;
+}
+.sticker-oct {
+    margin: auto;
+    width: 70%;
+    margin: 30px;
+}
+.intro {
+    margin-top: 50px;
+}
+#neyome {
+    font-size: 28vw;
+} 
+.p-ny {
+    color: #9c9466;
+    font-family: "Telegraf";
+}
+.im-ny {
+    width: 90%;
+    margin: 30 30 30px;
+    box-sizing: border-box;
+    
+}
+#ny-intro {
+    color: black;
+}
+#name-octo {
+    font-size: 26vw;
+}
+.im-oct {
+    margin: 30 0px;
+    width: 100%;
+
+}
+.text-octo {
+    color: black;
+}
+.back {
+    background-color: hsla(34, 46%, 81%, 0.96);
+}
